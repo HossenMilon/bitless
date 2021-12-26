@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+	.welcome_con_main {
+		text-align: center;
+	}
+	.welcome_icon ul {
+		justify-content: center !important;
+	}
+	.contact_con.dn {
+		display: block !important;
+	}
+	.port_con.pt {
+		margin-top: 14px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.about_con {
+		padding: 0;
+	}
+	
+}
+
+@media (max-width: 992px) {
+	.about_con {
+		padding: 0;
+	}
+	.about_con p:nth-chind(2) {
+		display: none;
+	}
+	.service_con {
+		margin-top: 60px;
+	}
+	.contact_con.dn{
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.slider_con {
+		text-align: center !important;
+	}
+}
